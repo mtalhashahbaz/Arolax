@@ -1,3 +1,4 @@
+
 var device_width = window.screen.width;
 
 /////////////////////////////////////////////////////
@@ -432,7 +433,7 @@ if (fadeArray_items.length > 0) {
 }
 
 let mm = gsap.matchMedia();
-
+                
 mm.add("(min-width: 1024px)", () => {
 
     var pin_list = document.querySelectorAll(".section-item")
